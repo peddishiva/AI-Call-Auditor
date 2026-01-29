@@ -9,7 +9,7 @@ class ReportGenerator:
     def __init__(self, output_dir="customer_auditor/data/reports"):
         self.output_dir = output_dir
         self.sender_email = "peddishiva63@gmail.com"
-        self.sender_pass = "myjn fwkq lyjo gopn"
+        self.sender_pass = "tgxf rqaa ynuy rfqc"
 
     def generate_pdf(self, audit_data, filename="audit_report.pdf"):
         pdf = FPDF()
