@@ -37,7 +37,7 @@ with st.sidebar:
     gemini_key = api_key if api_key else None
     
     # Manager Email Configuration
-    default_email = "hamsajoshuaa@gmail.com"
+    default_email = "peddishiva63@gmail.com"
     manager_email = st.text_input("Manager Email (for alerts)", value=default_email)
     st.caption(f"Critical alerts (<30 score) will be sent here.")
     
